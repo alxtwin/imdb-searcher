@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>IMDB Movie Suggestion</title>
+    <link rel="stylesheet" href="../imdb-searcher/css/style.css" />
+  </head>
+  <script>
+    function favTutorial() {
+      var mylist = document.getElementById("genre_list");
+      document.getElementById("genre_selected").value =
+        mylist.options[mylist.selectedIndex].text;
+    }
+  </script>
+
+  <body>
+    <div class="myDiv">
+      <h2>IMDB MOVIE SEARCHER</h2>
+      <p>Randomly selects a movie for u to watch! =')</p>
+    </div>
+
+ <div class="box">
+    <form>
+        select the movie genre:
+        <select id="genre_list">
+          <option><b>animation</b></option>
+          <option><b>action</b></option>
+          <option>adventure</option>
+          <option>thriller</option>
+          <option>horror</option>
+          <option>drama</option>
+        </select>
+ </div>
+
+<div class="box">
+    <p>
+        Movie year (optional): <input type = "text" id = "movie_year" size =
+        "20"
+      </p>
+</div>
+
+<div class="box">
+    <p>
+        <select id="better_to_worst" onchange="favTutorial()">
+          <option>best rating</option>
+          <option>worst rating</option>
+        </select>
+      </p>
+</div>
+
+<div class="myDiv">
+    <p>
+        <button class="searchButton" type="button"><b>search</b></button>
+      </p>
+</div>
+    </form>
+
+  </body>
+</html>

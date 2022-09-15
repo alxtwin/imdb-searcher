@@ -1,0 +1,16 @@
+.myDiv {
+  border: 5px solid black;
+  background-color: rgba(232, 232, 6, 0.748);    
+  text-align: center;
+}
+
+.box {
+  border: 5px solid black;
+  background-color: rgba(232, 232, 6, 0.748);    
+  text-align: center;
+}
+
+.searchButton{
+    background-color: green;
+    color: white;
+}
