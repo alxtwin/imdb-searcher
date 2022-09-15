@@ -1,7 +1,8 @@
 # imdb-searcher
 
 ##made using python IMDbPy
-##The aim of this project is to randomly generate a movie suggestion based on user selection. 
+
+###The aim of this project is to randomly generate a movie suggestion based on user selection. 
 
 **main options:**
 ```
